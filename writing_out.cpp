@@ -12,15 +12,15 @@ void write_out(int numbers[], int how_many)
     switch (answer)
     {
         case 'Y':
-         for (int i = 0; i < how_many; i++)
-           std::cout << numbers[i] << " " << std::endl;
-         break;
+            for (int i = 0; i < how_many; i++)
+                std::cout << numbers[i] << " " << std::endl;
+            break;
 
         case 'N':
-        std::cout << "Ok" << std::endl;
+            std::cout << "Ok" << std::endl;
 
         default:
-        std::cout << "Error! Cannot recognize inserted value" << std::endl;
-         break;
+            std::cout << "Error! Cannot recognize inserted value" << std::endl;
+            break;
     }
 }

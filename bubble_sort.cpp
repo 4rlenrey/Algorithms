@@ -5,6 +5,8 @@
 
 void bubble_sort(int numbers[], int how_many)
 {
+    std::cout << "Sorting..." << std::endl;
+
     int bufor = 0;
 
     for (int i = 0; i < how_many; i++)
@@ -19,5 +21,7 @@ void bubble_sort(int numbers[], int how_many)
             }
         }
     }
-     write_out( numbers, how_many);
+
+    std::cout << "Finished sorting" << std::endl;
+    write_out(numbers, how_many);
 }
