@@ -4,33 +4,27 @@
 
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main(int argc, char const* argv[])
 {
     int option;
 
-  cout << "Hello!" << endl;
-  cout << "This is my learning program" << endl;
-  cout << "Here is list of available functions :"<< endl;
-  cout << "Testing specific sorting algorithm (1)." << endl;
-  // cout << "Comparing specific sorting algorithms (2)." << endl; TO DO
+    cout << "Hello!" << endl;
+    cout << "This is my learning program" << endl;
+    cout << "Here is list of available functions:" << endl;
+    cout << "Testing specific sorting algorithm (1)." << endl;
+    cin >> option;
 
-  cin >> option;
+    switch (option)
+    {
+        case 1:
+        testing();
+        break;
 
-  switch (option)
-  {
-    case 1:
-
-    testing();
-
-    break;
-
-    default:
-
-    cout << "Error! Cannot recognize inserted number" << endl;
-
-    break;
-  }
+        default:
+        cout << "Error! Cannot recognize inserted number" << endl;
+          break;
+    }
 
 
-  return 0;
+    return 0;
 }

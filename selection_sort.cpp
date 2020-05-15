@@ -1,7 +1,9 @@
 #include <iostream>
 #include "sort.h"
+#include "functions.h"
 
-void selection_sort (int numbers[], int how_many)
+
+void selection_sort(int numbers[], int how_many)
 {
     int bufor = 0;
     int change = 0;
@@ -17,34 +19,12 @@ void selection_sort (int numbers[], int how_many)
             if (numbers[z] < numbers[change])
             {
                 change = z;
-
             }
-
         }
         bufor = numbers[change];
         numbers[change] = numbers[i];
         numbers[i] = bufor;
-
     }
+    write_out( numbers, how_many);
 
-
-std::cout << "Do you want to see sorted numbes? (Y/N)" << std::endl;
-
- char answer;
-
- std::cin >> answer;
-
- switch (answer)
- {
-   case 'Y':
-
-    for (int i = 0; i < how_many; i++)
-        std::cout << numbers[i] << " " << std::endl;
-
-      break;
-
-   default:
-
-   break;
- }
 }
