@@ -1,9 +1,10 @@
 #include <iostream>
 #include "sort.h"
 #include "functions.h"
+#include <vector>
 
 
-void bubble_sort(int numbers[], int how_many)
+void bubble_sort(vector<int>& numbers, int how_many)
 {
     std::cout << "Sorting..." << std::endl;
 

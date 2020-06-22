@@ -1,7 +1,10 @@
 #include <iostream>
 #include "functions.h"
+#include <vector>
+using namespace std;
 
-void write_out(int numbers[], int how_many)
+
+void write_out(vector<int> numbers, int how_many)
 {
     std::cout << "Do you want to see those numbes? (Y/N)" << std::endl;
 

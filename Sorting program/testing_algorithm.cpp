@@ -1,6 +1,8 @@
 #include <iostream>
+#include <vector>
 #include "functions.h"
 #include "sort.h"
+using namespace std;
 
 void testing()
 {
@@ -22,7 +24,7 @@ void testing()
 
     std::cin >> how_many;
 
-    int numbers[how_many];
+    vector<int> numbers(how_many);
 
 
     switch (answer)

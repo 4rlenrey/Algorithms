@@ -1,9 +1,11 @@
 #include <iostream>
 #include "sort.h"
+#include <vector>
 #include "functions.h"
 
+using namespace std;
 
-void selection_sort(int numbers[], int how_many)
+void selection_sort(vector<int>& numbers, int how_many)
 {
     int bufor = 0;
     int change = 0;

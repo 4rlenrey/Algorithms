@@ -2,8 +2,11 @@
 #include <cstdlib>
 #include <ctime>
 #include "functions.h"
+#include <vector>
+using namespace std;
 
-void random_values(int numbers[], int how_many)
+
+void random_values(vector<int>&numbers, int how_many)
 {
     std::cout << "Generating random values..." << std::endl;
 
