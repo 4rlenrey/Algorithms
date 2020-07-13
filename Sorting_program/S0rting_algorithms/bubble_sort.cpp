@@ -1,6 +1,6 @@
 #include <iostream>
-#include "sort.h"
-#include "functions.h"
+#include "../Header_files/sort.h"
+#include "../Header_files/functions.h"
 #include <vector>
 
 
