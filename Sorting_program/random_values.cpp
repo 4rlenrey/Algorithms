@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include "functions.h"
+#include "Header_files/functions.h"
 #include <vector>
 using namespace std;
 

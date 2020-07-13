@@ -1,7 +1,7 @@
 #include <iostream>
-#include "sort.h"
+#include "../Header_files/sort.h"
 #include <vector>
-#include "functions.h"
+#include "../Header_files/functions.h"
 
 using namespace std;
 
